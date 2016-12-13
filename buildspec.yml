@@ -11,4 +11,5 @@ phases:
       - ./gradlew assemble
 artifacts:
   files:
-    - build/libs/demo-*.war
+    - build/libs/demo-0.0.1-SNAPSHOT.war
+  discard-paths: true
