@@ -79,6 +79,7 @@ Resources:
       ServiceRole: !GetAtt CodeBuildServiceRole.Arn
       Artifacts:
         Type: CODEPIPELINE
+        Packaging: NONE
       Environment:
         Type: linuxContainer
         ComputeType: BUILD_GENERAL1_SMALL
